@@ -39,13 +39,13 @@ Package setup
 
 How to use this package
 -
-###Using User interface
+### Using User interface
 
 - Add Your API key and Sender Id under settings menu
 - Under Bulk SMS clieck send to phone number. Eneter your phone number to test the integration
 - All SMS sent by the system(both In UI and in Views) will be under Outbox menu
 
-###Sendind from a View
+### Sendind from a View
 
 ```
 from roycebulksms.views import sendText
