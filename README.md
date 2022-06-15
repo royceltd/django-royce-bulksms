@@ -6,7 +6,7 @@ Integrate Bulk sms into your project in under 2 minutes
 
 Quick start
 -----------
-Ensure that you have installed the package
+Install the package
 ```
   pip install django-royce-bulksms
 ```
@@ -20,8 +20,9 @@ Ensure that you have installed the package
     ```
 
 2. Include the roycebulksms URLconf in your project urls. py like this
-
+    ```
     path('bulksms/', include('roycebulksms.urls')),
+    ```
 
 3. Run ``python manage.py migrate`` to create the BulkSms models.
 
@@ -45,7 +46,7 @@ How to use this package
 - Under Bulk SMS clieck send to phone number. Eneter your phone number to test the integration
 - All SMS sent by the system(both In UI and in Views) will be under Outbox menu
 
-### Sendind from a View
+### Sending from a View
 
 ```
 from roycebulksms.views import sendText
