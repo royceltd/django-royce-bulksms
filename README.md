@@ -6,6 +6,10 @@ Integrate Bulk sms into your project in under 2 minutes
 
 Quick start
 -----------
+Ensure that you have installed the package
+```
+  pip install django-royce-bulksms
+```
 
 1. Add ```roycebulksms``` to your INSTALLED_APPS setting like this
     ```
