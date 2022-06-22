@@ -10,6 +10,10 @@ Install the package
 ```
   pip install django-royce-bulksms
 ```
+Install requests
+```
+  pip install requests
+```
 
 1. Add ```roycebulksms``` to your INSTALLED_APPS setting like this
     ```
@@ -29,12 +33,12 @@ Install the package
 4. Start the development server and visit http://127.0.0.1:8000/admin/
     (you'll need to be authenticated to access bulk sms UI).
 
-5. Visit http://127.0.0.1:8000/polls/ to participate in the poll.
+5. Visit http://127.0.0.1:8000/bulksms/.
 
 Package setup
 -
 - Install this package
-- Open A free account [here](https://bulksms.roycetechnlogies.co.ke)
+- Open A free account [here](https://bulksms.roycetechnologies.co.ke/)
 - Generate API key under API menu
 - use our default sender ID  `RoyceLtd`
 
@@ -43,7 +47,7 @@ How to use this package
 ### Using User interface
 
 - Add Your API key and Sender Id under settings menu
-- Under Bulk SMS clieck send to phone number. Eneter your phone number to test the integration
+- Under Bulk SMS click send to phone number. Eneter your phone number to test the integration
 - All SMS sent by the system(both In UI and in Views) will be under Outbox menu
 
 ### Sending from a View
@@ -56,7 +60,7 @@ def index(request):
     
 
 ```
-example
+Example
 ```
 from roycebulksms.views import sendText
 
