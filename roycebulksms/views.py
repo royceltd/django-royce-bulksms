@@ -171,7 +171,7 @@ def sendText(number, message,sender_id):
 
 
     
-    endpoint = "https://bulksms.roycetechnologies.co.ke/api/sendmessage"
+    endpoint = "https://roycebulksms.com/"
     data = {
 
     'sender_id': sender_id, 'text_message': message, 'phone_number': number

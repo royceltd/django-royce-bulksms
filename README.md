@@ -38,7 +38,7 @@ Install requests
 Package setup
 -
 - Install this package
-- Open A free account [here](https://bulksms.roycetechnologies.co.ke/)
+- Open A free account [here](https://roycebulksms.com/)
 - Generate API key under API menu
 - use our default sender ID  `RoyceLtd`
 
